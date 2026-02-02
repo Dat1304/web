@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Real Estate Video Editing Services | Showcase Your Properties</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s;
+            opacity: 0.9;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+
+        .btn-nav {
+            background: white;
+            color: #667eea;
+            padding: 0.7rem 1.8rem;
+            border-radius: 25px;
+            font-weight: 700;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 50%;
+            opacity: 0.15;
+            top: -200px;
+            right: -100px;
+            animation: float 15s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            border-radius: 50%;
+            opacity: 0.1;
+            bottom: -150px;
+            left: -100px;
+            animation: float 20s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(50px, 50px);
+            }
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-hero {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 1.2rem 3rem;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            box-shadow: 0 8px 30px rgba(245, 87, 108, 0.4);
+            transition: all 0.3s;
+        }
+
+        .btn-hero:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(245, 87, 108, 0.6);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-title p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Features Section */
+        .features {
+            background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+        }
+
+        .features-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: white;
+            border: none;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-family: 'Inter', sans-serif;
+            color: #667eea;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .tab-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .tab-image {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+        }
+
+        .feature-illustration {
+            background: white;
+            border-radius: 15px;
+            padding: 3rem;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tab-text h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        .tab-text p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Packages Section */
+        .packages {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .packages .section-title h2 {
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .packages .section-title p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .package-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .package-tab-btn {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .package-tab-btn:hover,
+        .package-tab-btn.active {
+            background: white;
+            color: #667eea;
+            border-color: white;
+            transform: translateY(-3px);
+        }
+
+        .package-content {
+            display: none;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .package-content.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+
+        .package-content h3 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+
+        .package-content ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .package-content li {
+            padding: 1rem 0;
+            padding-left: 2rem;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        .package-content li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4facfe;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .package-content p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        /* Why Section */
+        .why-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .why-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .why-number {
+            font-size: 6rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .why-content h3 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .why-content p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9ff 100%);
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 1.5rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .faq-item:hover {
+            border-color: #667eea;
+        }
+
+        .faq-question {
+            padding: 1.8rem 2rem;
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+        }
+
+        .faq-icon {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .faq-question.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 400px;
+        }
+
+        .faq-answer p {
+            padding: 0 2rem 2rem;
+            color: #666;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        /* Team Section */
+        .team {
+            background: white;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+        }
+
+        .team-member {
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+
+        .team-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 5px;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        .team-avatar-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .team-member h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-member p {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .pricing-card {
+            background: white;
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s;
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+        }
+
+        .pricing-card.featured {
+            border-color: #667eea;
+            background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+        }
+
+        .pricing-card.featured::before {
+            height: 8px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .price {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card p {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+        }
+
+        .btn-pricing {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 700;
+            transition: all 0.3s;
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-pricing:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+        }
+
+        .pricing-card.featured .btn-pricing {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            box-shadow: 0 6px 20px rgba(245, 87, 108, 0.3);
+        }
+
+        .pricing-card.featured .btn-pricing:hover {
+            box-shadow: 0 10px 30px rgba(245, 87, 108, 0.5);
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta p {
+            font-size: 1.4rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-cta {
+            background: white;
+            color: #4facfe;
+            padding: 1.2rem 3rem;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
+            transition: all 0.3s;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(255, 255, 255, 0.4);
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9ff 100%);
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .contact-info h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: start;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+        }
+
+        .contact-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        .contact-item-text h4 {
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            color: #1a1a1a;
+        }
+
+        .contact-item-text p {
+            color: #666;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .btn-submit {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.2rem 3rem;
+            border: none;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            font-family: 'Inter', sans-serif;
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        footer strong {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+
+            .tab-content.active,
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .section-title h2 {
+                font-size: 2.2rem;
+            }
+
+            .why-number {
+                font-size: 4rem;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">P</div>
+                <span class="logo-text">Prees Video</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="btn-nav">Get Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Listings, Now Cinematic.</h1>
+            <p>We transform your real estate videos from drab to dazzling. Get ready for offers to flood in.</p>
+            <a href="#packages" class="btn-hero">See Packages</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Video Editing Services</h2>
+                <p>Elevate your property listings with our comprehensive video editing solutions</p>
+            </div>
+
+            <div class="features-tabs">
+                <button class="tab-btn active" data-tab="sharp">Sharp</button>
+                <button class="tab-btn" data-tab="dynamic">Dynamic</button>
+                <button class="tab-btn" data-tab="engaging">Engaging</button>
+                <button class="tab-btn" data-tab="pro">Professional</button>
+                <button class="tab-btn" data-tab="fast">Fast</button>
+            </div>
+
+            <div class="tab-content active" id="sharp">
+                <div class="tab-image">
+                    <div class="feature-illustration">
+                        <svg width="100%" height="250" viewBox="0 0 400 250">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="50" width="300" height="150" rx="10" fill="url(#grad1)" opacity="0.2"/>
+                            <rect x="80" y="80" width="240" height="90" rx="8" fill="url(#grad1)" opacity="0.5"/>
+                            <circle cx="200" cy="125" r="30" fill="#667eea"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tab-text">
+                    <h3>Crystal Clear Visuals</h3>
+                    <p>Every frame is meticulously crafted to showcase your property in stunning detail. We enhance lighting, colors, and clarity to make each room pop off the screen and captivate potential buyers.</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="dynamic">
+                <div class="tab-image">
+                    <div class="feature-illustration">
+                        <svg width="100%" height="250" viewBox="0 0 400 250">
+                            <defs>
+                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M 50 125 Q 150 50 250 125 T 350 125" stroke="url(#grad2)" stroke-width="8" fill="none"/>
+                            <circle cx="50" cy="125" r="12" fill="#f093fb"/>
+                            <circle cx="250" cy="125" r="12" fill="#f5576c"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tab-text">
+                    <h3>Motion That Pops</h3>
+                    <p>Dynamic camera movements and smooth transitions create an immersive experience. We add energy and flow that keeps viewers engaged from start to finish, making them feel like they're walking through the property.</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="engaging">
+                <div class="tab-image">
+                    <div class="feature-illustration">
+                        <svg width="100%" height="250" viewBox="0 0 400 250">
+                            <defs>
+                                <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="200,50 230,110 290,120 245,165 257,225 200,190 143,225 155,165 110,120 170,110" fill="url(#grad3)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tab-text">
+                    <h3>Captivate Buyers</h3>
+                    <p>Our videos don't just show properties – they tell compelling stories. With strategic pacing, music selection, and narrative flow, we create emotional connections that turn casual viewers into serious buyers.</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="pro">
+                <div class="tab-image">
+                    <div class="feature-illustration">
+                        <svg width="100%" height="250" viewBox="0 0 400 250">
+                            <defs>
+                                <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="80" y="50" width="70" height="150" rx="8" fill="url(#grad4)" opacity="0.8"/>
+                            <rect x="165" y="50" width="70" height="150" rx="8" fill="url(#grad4)" opacity="0.6"/>
+                            <rect x="250" y="50" width="70" height="150" rx="8" fill="url(#grad4)" opacity="0.4"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tab-text">
+                    <h3>Expert Editing</h3>
+                    <p>Professional color grading, seamless cuts, and polished effects elevate your footage to cinematic quality. Our experienced editors know exactly how to highlight your property's best features.</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="fast">
+                <div class="tab-image">
+                    <div class="feature-illustration">
+                        <svg width="100%" height="250" viewBox="0 0 400 250">
+                            <defs>
+                                <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="200" cy="125" r="80" fill="none" stroke="url(#grad5)" stroke-width="8"/>
+                            <line x1="200" y1="125" x2="200" y2="60" stroke="#667eea" stroke-width="6"/>
+                            <line x1="200" y1="125" x2="260" y2="155" stroke="url(#grad5)" stroke-width="6"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tab-text">
+                    <h3>Quick Turnaround</h3>
+                    <p>Time is money in real estate. We deliver high-quality edited videos in 3-5 business days, with rush options available. Get your listings market-ready faster than ever before.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Packages That Pack A Punch</h2>
+                <p>Pick the perfect video magic for your property</p>
+            </div>
+
+            <div class="package-tabs">
+                <button class="package-tab-btn active" data-package="basic">Basic</button>
+                <button class="package-tab-btn" data-package="standard">Standard</button>
+                <button class="package-tab-btn" data-package="premium">Premium</button>
+                <button class="package-tab-btn" data-package="addons">Add-ons</button>
+            </div>
+
+            <div class="package-content active" id="basic">
+                <h3>Basic</h3>
+                <ul>
+                    <li>Up to 1 minute video</li>
+                    <li>Basic color correction</li>
+                    <li>Royalty-free music</li>
+                    <li>Standard transitions</li>
+                </ul>
+                <p>Get your property noticed without breaking the bank. Perfect for starter homes or quick sales.</p>
+            </div>
+
+            <div class="package-content" id="standard">
+                <h3>Standard</h3>
+                <ul>
+                    <li>Up to 2 minute video</li>
+                    <li>Advanced color grading</li>
+                    <li>Customizable text overlays</li>
+                    <li>Professional transitions</li>
+                    <li>Premium music selection</li>
+                </ul>
+                <p>Add a bit more sparkle and detail. This package makes your property feel truly special and aspirational.</p>
+            </div>
+
+            <div class="package-content" id="premium">
+                <h3>Premium</h3>
+                <ul>
+                    <li>Up to 3 minute video</li>
+                    <li>Cinematic color grading</li>
+                    <li>Drone footage integration</li>
+                    <li>Custom motion graphics</li>
+                    <li>Licensed premium music</li>
+                    <li>Multiple revisions</li>
+                </ul>
+                <p>The ultimate visual feast for luxury properties. Make buyers feel like they're already home.</p>
+            </div>
+
+            <div class="package-content" id="addons">
+                <h3>Add-ons</h3>
+                <ul>
+                    <li>Aerial drone shots</li>
+                    <li>Professional voiceover services</li>
+                    <li>Virtual staging integration</li>
+                    <li>Rush delivery (24-48 hours)</li>
+                    <li>Social media optimized versions</li>
+                </ul>
+                <p>Need something extra? We've got the magic touches to make your listing truly unforgettable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Section -->
+    <section class="why-section">
+        <div class="container">
+            <div class="why-content">
+                <div class="why-number">99%</div>
+                <h3>It's Bold.</h3>
+                <p>Our approach isn't just professional; it's a statement. We signify energy, creativity, and excellence – perfect for making your property listings pop and grab attention. We use cutting-edge techniques strategically to create vibrant, memorable experiences for potential buyers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Got Questions?</h2>
+                <p>Find answers to the most common inquiries</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How long does editing take?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Typically, 3-5 business days for standard packages. Rush options are available if you need it yesterday.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I see a draft?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We send a draft for your review before the final polish. Your satisfaction is our mission.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What if I hate it?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We aim for perfection, but if you're not thrilled, we'll tweak it until you are. We're not happy until you're ecstatic.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What video formats do you provide?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We deliver in high-definition formats suitable for all major online platforms and your website.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you work with agents nationwide?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You bet! We serve real estate professionals across the country. Your location is no barrier to great video.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Video Wizards</h2>
+                <p>Meet the talented team behind the magic</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">
+                            <svg width="100%" height="100%" viewBox="0 0 170 170">
+                                <defs>
+                                    <linearGradient id="teamgrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="85" cy="60" r="30" fill="url(#teamgrad1)"/>
+                                <ellipse cx="85" cy="130" rx="45" ry="50" fill="url(#teamgrad1)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Alex</h3>
+                    <p>Director</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">
+                            <svg width="100%" height="100%" viewBox="0 0 170 170">
+                                <defs>
+                                    <linearGradient id="teamgrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="85" cy="60" r="30" fill="url(#teamgrad2)"/>
+                                <ellipse cx="85" cy="130" rx="45" ry="50" fill="url(#teamgrad2)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Sophia</h3>
+                    <p>Editor</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">
+                            <svg width="100%" height="100%" viewBox="0 0 170 170">
+                                <defs>
+                                    <linearGradient id="teamgrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="45" y="45" width="50" height="50" rx="8" fill="url(#teamgrad3)"/>
+                                <circle cx="85" cy="130" r="35" fill="url(#teamgrad3)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Leo</h3>
+                    <p>Animator</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">
+                            <svg width="100%" height="100%" viewBox="0 0 170 170">
+                                <defs>
+                                    <linearGradient id="teamgrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <polygon points="85,30 105,75 150,82 117,115 125,160 85,135 45,160 53,115 20,82 65,75" fill="url(#teamgrad4)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Mia</h3>
+                    <p>Colorist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Packages</h2>
+                <p>Choose the perfect plan for your needs</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="price">$499</div>
+                    <h3>Bronze</h3>
+                    <p>Solid property showcase for maximum impact.</p>
+                    <a href="#contact" class="btn-pricing">Buy Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="price">$799</div>
+                    <h3>Silver</h3>
+                    <p>Premium video with extra polish and flair.</p>
+                    <a href="#contact" class="btn-pricing">Buy Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="price">$1299</div>
+                    <h3>Gold</h3>
+                    <p>Cinematic masterpiece for unforgettable listings.</p>
+                    <a href="#contact" class="btn-pricing">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready?</h2>
+            <p>Stop letting your listings gather digital dust. Let's create videos that sell properties faster than a hotcake at a brunch buffet.</p>
+            <a href="#contact" class="btn-cta">Let's Chat</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Let's Create Magic Together</h2>
+                <p>Get in touch and let's start your project</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">1</div>
+                        <div class="contact-item-text">
+                            <h4>Phone</h4>
+                            <p>555-VIDEO-PRO</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">2</div>
+                        <div class="contact-item-text">
+                            <h4>Email</h4>
+                            <p>hello@vividrealtyedits.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">3</div>
+                        <div class="contact-item-text">
+                            <h4>Address</h4>
+                            <p>123 Creative Lane, Suite 456<br>Edit City, CA 90210</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>Vivid Realty Edits</strong> © 2024. All rights reserved. We make dreams look good.</p>
+    </footer>
+
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const tabName = this.getAttribute('data-tab');
+                
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                this.classList.add('active');
+                if (tabName) {
+                    document.getElementById(tabName).classList.add('active');
+                }
+            });
+        });
+
+        // Package tabs
+        document.querySelectorAll('.package-tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const packageName = this.getAttribute('data-package');
+                
+                document.querySelectorAll('.package-tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.package-content').forEach(c => c.classList.remove('active'));
+                
+                this.classList.add('active');
+                document.getElementById(packageName).classList.add('active');
+            });
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const isActive = this.classList.contains('active');
+                
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                    q.nextElementSibling.classList.remove('active');
+                });
+                
+                if (!isActive) {
+                    this.classList.add('active');
+                    answer.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for filling out the form! We\'ll get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
